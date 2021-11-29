@@ -1,7 +1,17 @@
 import search.BinarySearch;
+import sort.BubbleSort;
 
 public class Main {
 	public static void main(String[] args) {
-		BinarySearch.run();
+		// Uncomment commented (with //) lines below to run respective programs.
+		/*
+		* Search
+		* */
+		// BinarySearch.run();
+
+		/*
+		* Sort
+		* */
+		BubbleSort.run();
 	}
 }
